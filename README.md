@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a4911f71-a036-4e9b-9c47-ac9537cff454" width="120" height="120" />
+</p>
 
-# <img src="https://github.com/user-attachments/assets/a4911f71-a036-4e9b-9c47-ac9537cff454" width="48" height="48" align="center"> 基于 YOLO 的智能车在途感知框架
+<h1 align="center">基于 YOLO 的智能车在途感知框架</h1>
+
 <div align="center">
 <br>
 
