@@ -17,7 +17,6 @@
 
 ---
 
-## 📖 项目简介 (Introduction)
 
 本项目旨在解决智能交通系统中车辆对周界环境感知的不确定性问题。系统基于 Python和Pytorch 开发，通过软硬件协同，实现了以下核心能力：
 
@@ -25,7 +24,6 @@
 2.  **多源信息融合**：通过串口通信解析 NMEA-0183 协议，实时获取并显示车辆的经纬度、速度、海拔、航向及卫星状态。
 3.  **交互式终端**：基于 PyQt5 设计了可视化 GUI，支持视频录制、截图保存以及各类传感器数据的实时仪表盘显示。
 
-## ✨ 功能特性 (Features)
 
 * **🔍 实时目标检测**：
     * 集成 YOLOv5 模型，支持 Webcam 或视频流输入。
@@ -62,13 +60,13 @@ conda activate vehicle-perception
 ```
 pip install PyQt5 pyserial pynmea2 pyautogui opencv-python torch torchvision
 ```
-🚀 使用说明 (Usage)
+
 ### 4. 硬件连接
 摄像头：确保 USB 摄像头已连接，或使用 RTSP 视频流。
 
 GNSS 模块：通过 USB 转 TTL 连接电脑。
 
-⚠️ 注意：默认串口号配置为 COM16。如果你的设备端口不同，请务必打开 final.py 修改以下代码：
+注意：默认串口号配置为 COM16。如果你的设备端口不同，请务必打开 final.py 修改以下代码：
 ```
 ser = serial.Serial(port="COM16", baudrate=115200, ...)
 ```
@@ -84,8 +82,7 @@ python final.py
 
 功能按钮：
 
-📷 截图：保存当前界面截图到本地。
-
-🎥 录像：点击开始录制，再次点击停止录制（保存在项目根目录）。
+截图：保存当前界面截图到本地。
+录像：点击开始录制，再次点击停止录制（保存在项目根目录）。
 
 
