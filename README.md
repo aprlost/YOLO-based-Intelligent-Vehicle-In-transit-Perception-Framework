@@ -41,7 +41,34 @@
 
 ## 📸 效果展示 (Demo)
 
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="./assets/demo1.gif" width="400" alt="场景1"/>
+        <br>
+        <sub><b>场景 1</b></sub>
+      </td>
+      <td align="center">
+        <img src="./assets/demo2.gif" width="400" alt="场景2"/>
+        <br>
+        <sub><b>场景 2</b></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./assets/demo3.gif" width="400" alt="场景3"/>
+        <br>
+        <sub><b>场景 3</b></sub>
+      </td>
+      <td align="center">
+        <img src="./assets/demo4.gif" width="400" alt="场景4"/>
+        <br>
+        <sub><b>场景 4</b></sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 ### 1. 克隆仓库
