@@ -75,7 +75,7 @@
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/aprlost/YOLO-VPP.gitcd YOLO-VPP
+git clone https://github.com/aprlost/YOLO-VPP.git
 cd YOLO-VPP
 ```
 ### 2.  环境配置
