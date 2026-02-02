@@ -114,4 +114,12 @@ python final.py
 截图：保存当前界面截图到本地。
 录像：点击开始录制，再次点击停止录制（保存在项目根目录）。
 
+## 📈 Star History
+
+<p align="center">
+  <a href="https://star-history.com/#aprlost/YOLO-VPP&Date">
+    <img src="https://api.star-history.com/svg?repos=aprlost/YOLO-VPP&type=Date" alt="Star History Chart" width="100%">
+  </a>
+</p>
+
 
