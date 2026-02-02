@@ -50,15 +50,18 @@
 ```bash
 git clone [https://github.com/aprlost/YOLO-based-Intelligent-Vehicle-In-transit-Perception-Framework.git](https://github.com/aprlost/YOLO-based-Intelligent-Vehicle-In-transit-Perception-Framework.git)
 cd YOLO-based-Intelligent-Vehicle-In-transit-Perception-Framework
-
-### 2. 环境配置
+```
+### 2.  环境配置
 建议使用 Conda 创建独立环境以避免依赖冲突：
-
+```
 conda create -n vehicle-perception python=3.8
 conda activate vehicle-perception
+```
 ### 3. 安装依赖
 本项目依赖 YOLOv5 的基础环境以及 PyQt5 和 串口通信库。请确保安装以下核心库：
+```
 pip install PyQt5 pyserial pynmea2 pyautogui opencv-python torch torchvision
+```
 🚀 使用说明 (Usage)
 ### 4. 硬件连接
 摄像头：确保 USB 摄像头已连接，或使用 RTSP 视频流。
@@ -66,10 +69,14 @@ pip install PyQt5 pyserial pynmea2 pyautogui opencv-python torch torchvision
 GNSS 模块：通过 USB 转 TTL 连接电脑。
 
 ⚠️ 注意：默认串口号配置为 COM16。如果你的设备端口不同，请务必打开 final.py 修改以下代码：
+```
 ser = serial.Serial(port="COM16", baudrate=115200, ...)
+```
 ### 5. 运行系统
 直接运行主程序即可启动 GUI 界面：
+```
 python final.py
+```
 ### 6. 操作指南
 显示视频：点击界面上的“显示视频”按钮，加载 YOLO 模型并开始推理。
 
