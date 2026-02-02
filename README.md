@@ -75,8 +75,8 @@
 
 ### 1. 克隆仓库
 ```bash
-git clone [https://github.com/aprlost/YOLO-based-Intelligent-Vehicle-In-transit-Perception-Framework.git](https://github.com/aprlost/YOLO-based-Intelligent-Vehicle-In-transit-Perception-Framework.git)
-cd YOLO-based-Intelligent-Vehicle-In-transit-Perception-Framework
+git clone https://github.com/aprlost/YOLO-VPP.gitcd YOLO-VPP
+cd YOLO-VPP
 ```
 ### 2.  环境配置
 建议使用 Conda 创建独立环境以避免依赖冲突：
